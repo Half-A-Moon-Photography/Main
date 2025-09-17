@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Half A Moon LLC — Photography</title>
+  <meta name="description" content="Half A Moon LLC — Photography, Wildlife Consulting, Field Work. Based in Las Vegas and the Mojave Desert.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html">Half A Moon LLC</a>
+    <nav>
+      <a class="active" href="index.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Photography and Wildlife Work from the Mojave</h1>
+        <p>Half A Moon LLC — Fine art prints, assignments, and environmental consulting.</p>
+        <a class="btn" href="#gallery">View Portfolio</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="masonry">
+      <figure class="card">
+        <a href="images/desert-tortoise.jpg" data-caption="Desert tortoise at dusk — taken under USFWS survey protocols.">
+          <img src="images/desert-tortoise.jpg" loading="lazy" alt="desert tortoise">
+        </a>
+        <figcaption class="cap">Desert tortoise at dusk — taken under USFWS survey protocols.</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="images/sand-dunes.jpg" data-caption="Wind lines on Kelso dunes.">
+          <img src="images/sand-dunes.jpg" loading="lazy" alt="sand dunes">
+        </a>
+        <figcaption class="cap">Wind lines on Kelso dunes.</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="images/night-sky.jpg" data-caption="Milky Way over the Mojave.">
+          <img src="images/night-sky.jpg" loading="lazy" alt="night sky">
+        </a>
+        <figcaption class="cap">Milky Way over the Mojave.</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="images/flora.jpg" data-caption="Creosote in bloom after spring rain.">
+          <img src="images/flora.jpg" loading="lazy" alt="flora">
+        </a>
+        <figcaption class="cap">Creosote in bloom after spring rain.</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="images/field-notes.jpg" data-caption="Field notebook and GPS at camp.">
+          <img src="images/field-notes.jpg" loading="lazy" alt="field notes">
+        </a>
+        <figcaption class="cap">Field notebook and GPS at camp.</figcaption>
+      </figure>
+
+      <figure class="card">
+        <a href="images/macro.jpg" data-caption="Sidewinder tracks at first light.">
+          <img src="images/macro.jpg" loading="lazy" alt="macro tracks">
+        </a>
+        <figcaption class="cap">Sidewinder tracks at first light.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Half A Moon LLC · All rights reserved.</p>
+    <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" alt="">
+    <figcaption id="lightbox-cap"></figcaption>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
